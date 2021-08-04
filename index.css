@@ -1,0 +1,80 @@
+body{
+    background-image: url(9e7b95b45830a14449b7aaa51a31acf2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.loginpage{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    
+}
+
+.form{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    background-color: rgba(45, 101, 129, 0.2);
+    max-width: 360px;
+    height: 280px;
+    margin: 0 auto 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form input{
+  
+    font-family: "Roboto" , "san-serif";
+outline: 1;
+background-color: #f2f2f2;
+width: 100%;
+border: 0;
+border-radius: 10px;
+margin-bottom: 20px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 15px;
+text-align: center;
+}
+
+.form button{
+    font-family: "Roboto" , "san-serif";
+    background-color: #4caf50;
+    outline: 0;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.form .message{
+    color: aliceblue;
+   
+    font-size: 12px;
+}
+
+.form .message a{
+    color: rgb(127, 230, 221);
+    margin-left: 5px;
+    text-decoration: none;
+    
+}
+
+.form button:hover, .form button:active{
+background-color: #418b46;
+color: white;
+}
+
+.form .register-form{
+    display: none;
+}
